@@ -1,4 +1,4 @@
-**Grizzly Bear Movement Corridors – Least Cost Path Analysis**
+# Grizzly Bear Movement Corridors – Least Cost Path Analysis
 
 This project models potential grizzly bear movement corridors across the Rocky Mountain foothills of western Alberta using raster-based least cost path analysis. The objective was to identify routes that minimize cumulative movement cost between core habitat areas while accounting for terrain, land cover, and human disturbance.
 
@@ -8,16 +8,22 @@ Distance to roads was calculated as a proxy for human disturbance, with higher m
 
 Least cost path analysis was then performed to identify the optimal travel route between a core habitat area and a secondary habitat area. The resulting corridor illustrates how terrain, vegetation structure, and human infrastructure influence predicted wildlife movement patterns across the landscape.
 
-Key outputs:
-- Landscape cost surface representing grizzly bear movement resistance
-- Derived slope raster from ASTER DEM data
-- Reclassified land cover cost layer
-- Distance-to-roads disturbance layer
-- Least cost movement corridor between habitat areas
+## Key Outputs
 
-Tools and methods:
-- GDAL raster processing utilities
-- QGIS raster analysis and spatial preprocessing
-- ArcGIS Pro least cost path modelling
-- Weighted raster overlay and cost surface modelling
-- Wildlife connectivity and landscape resistance analysis
+- Landscape cost surface representing grizzly bear movement resistance  
+- Derived slope raster from ASTER DEM data  
+- Reclassified land cover cost layer  
+- Distance-to-roads disturbance layer  
+- Least cost movement corridor between habitat areas  
+
+## Tools and Methods
+
+- GDAL raster processing utilities  
+- QGIS raster analysis and spatial preprocessing  
+- ArcGIS Pro least cost path modelling  
+- Weighted raster overlay and cost surface modelling  
+- Wildlife connectivity and landscape resistance analysis  
+
+## Final Corridor Map
+
+![Grizzly Bear Least Cost Path](Layout.png)
